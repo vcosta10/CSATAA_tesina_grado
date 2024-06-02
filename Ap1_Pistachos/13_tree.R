@@ -9,9 +9,7 @@ library(caret)      # Usar función train()
 
 
 ## Importación del dataset
-setwd("C:/Users/Victorio/Desktop/Viko/Academia/UNR - Licenciatura en Estadistica/Tesina/Ap 1 - Pistachos/Pistachio_Image_Dataset")
-
-pist <- read_xlsx("Pistachio_28_Features_Dataset.xlsx") %>% 
+pist <- read_xlsx("./Pistachio_28_Features_Dataset.xlsx") %>% 
   mutate(Class = case_when(
     Class == "Kirmizi_Pistachio" ~ "Kirmizi",
     Class == "Siirt_Pistachio" ~ "Siirt"

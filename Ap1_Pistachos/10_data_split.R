@@ -5,8 +5,7 @@ library(tidyverse) # Manipulación de datos
 library(readxl)    # Importar archivo .xlsx
 
 ## Importación del dataset
-setwd("C:/Users/Victorio/Desktop/Viko/Academia/UNR - Licenciatura en Estadística/Tesina/Aplic_Pistachos")
-pist <- read_xlsx("Pistachio_28_Features_Dataset.xlsx")
+pist <- read_xlsx("./Pistachio_28_Features_Dataset.xlsx")
 
 ## Creación de columna id
 pist$id <- 1:nrow(pist)
