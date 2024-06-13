@@ -6,7 +6,7 @@
 
 *Alumno:* Victorio Costa
 
-*Director:* Dra. Daniela Dianda
+*Directora:* Dra. Daniela Dianda
 
 *Co-directora:* Lic. Julia Fernandez
 
