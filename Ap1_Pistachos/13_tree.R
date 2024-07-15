@@ -71,6 +71,9 @@ pist.cart.cp.best <- rpart(
   ),  
   data = pist.train
 )
+
+pist.cart.cp.best[["cptable"]]
+
 rpart.plot(pist.cart.cp.best,
            extra = 106,
            digits = 3,
